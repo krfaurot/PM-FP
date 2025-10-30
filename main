@@ -17,24 +17,37 @@
     padding: 20px;
     text-align: center;
     }
-
-
   </style>
 </head>
-<body>
 
+<body>
     <header>
         <!--largest text, largest tag-->
         <div id="title">
-        <h1>Welcome to EGT3414. Please keep conversations relavant and civil. </h1>
-</div>
+            <h1>Welcome to EGT3414. Please keep conversations relevant and civil. </h1>
+        </div>
+        <nav id="top">
+            <ul>
+                <li>
+                    <a class="button">Home</a>
+                    <!-- I figure this will be a general home page with upcoming events related to what each user wants to see -->
+                <li>
+                    <a class="button">About</a>
+                    <!-- We can totally scratch this later but I figure most pages have an about page so what would it hurt lol -->
+                <li>
+                    <a class="button">Connections</a>
+                    <!-- This will be where the chat feature comes in, so each user has a hub for talking to their classmates, professors, potential employers, etc. -->
+                    <!-- Maybe for new users this can be a "choose your school" or "choose your field of study" type of thing? Idk lol -->
+                <li>
+                    <a class="button">Support</a>
+                    <!-- Also may be able to scrap this in the final product, but again it is a common feature on most websites -->
+            </ul>
+            <!-- These header buttons can change as we need and develop a working menu bar at the top of the page -->
+            <!-- We will also need to create a dedicated page for each button to link to -->
     </header>
-
-
-
-
-    <!-- Your content goes here -->
-    <h1>Welcome to our Website</h1>
-    <p>Marco herrera 123456</p>
+    <main>
+        <h1>Welcome to our Website</h1>
+        <p>Marco herrera 123456</p>
+    </main>
 </body>
 </html>
